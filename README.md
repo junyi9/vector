@@ -43,3 +43,22 @@ sudo apt install cmake
 ## strym
 
 `strym` is a library for analysis.
+
+
+## Notes
+
+`libpanda` is just keeping it as it is.
+
+To change the yaml in libpanda to select the correct can_to_ros specification.
+
+### ROS nodes
+
+- `custom_ros_node` do the traffic logic. It's what i need to work on.
+
+- `can_to_ros` is what we need to modify to facilitate our own use cases.
+
+- `live-tracker` is a ros node.
+
+any simulink ROS nodes
+
+The changes should be made on the server side and the ROS node side.
